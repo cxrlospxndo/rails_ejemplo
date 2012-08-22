@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Marca:</b>
+  <%= @vehiculo.marca %>
+</p>
+
+<p>
+  <b>Modelo:</b>
+  <%= @vehiculo.modelo %>
+</p>
+
+<p>
+  <b>Aniofabricacion:</b>
+  <%= @vehiculo.aniofabricacion %>
+</p>
+
+<p>
+  <b>Precio:</b>
+  <%= @vehiculo.precio %>
+</p>
+
+
+<%= link_to 'Edit', edit_vehiculo_path(@vehiculo) %> |
+<%= link_to 'Back', vehiculos_path %>
